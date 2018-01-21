@@ -60,8 +60,7 @@ func Split(text string, limit int) ([]string, string) {
 			switch {
 			case squoted || dquoted:
 				word += string(c)
-			case spaced:
-			default:
+			case !spaced:
 				args = append(args, word)
 				if limit == 1 {
 					return args, text[i:]
