@@ -1,4 +1,4 @@
-// Split a string into substrings
+// Package chatwords splits a string into substrings
 package chatwords
 
 import (
