@@ -101,7 +101,6 @@ func Split(text string, limit int) ([]string, string) {
 					}
 					return args, txt
 				}
-				word += string(c)
 			default:
 				word += string(c)
 			}

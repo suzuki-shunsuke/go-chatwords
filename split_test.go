@@ -28,4 +28,7 @@ func TestSplit(t *testing.T) {
 	tSplit(t, "foo \"hello world\"bar", -1, []string{"foo", "\"hello", "world\"bar"}, "")
 	tSplit(t, "<UXXXXX> echo 'hello world'", -1, []string{"<UXXXXX>", "echo", "hello world"}, "")
 	tSplit(t, "<UXXXXX> echo 'hello world'", 2, []string{"<UXXXXX>", "echo"}, " 'hello world'")
+	tSplit(t, "'foo'' bar'", -1, []string{"'foo''", "bar'"}, "")
+	tSplit(t, "'foo'\" bar\"", -1, []string{"'foo'\"", "bar\""}, "")
+	tSplit(t, "foo\\\\ bar", -1, []string{"foo\\", "bar"}, "")
 }
