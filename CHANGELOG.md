@@ -1,5 +1,14 @@
 # Change Log
 
+## [0.1.1](https://github.com/suzuki-shunsuke/go-chatwords/tree/0.1.1) (2018-01-21)
+[Full Changelog](https://github.com/suzuki-shunsuke/go-chatwords/compare/0.1.0...0.1.1)
+
+**Merged pull requests:**
+
+- refactor: improve coverage [\#4](https://github.com/suzuki-shunsuke/go-chatwords/pull/4) ([suzuki-shunsuke](https://github.com/suzuki-shunsuke))
+- test: improve coverage and introduce Codecov [\#3](https://github.com/suzuki-shunsuke/go-chatwords/pull/3) ([suzuki-shunsuke](https://github.com/suzuki-shunsuke))
+- docs: add CHANGELOG [\#2](https://github.com/suzuki-shunsuke/go-chatwords/pull/2) ([suzuki-shunsuke](https://github.com/suzuki-shunsuke))
+
 ## [0.1.0](https://github.com/suzuki-shunsuke/go-chatwords/tree/0.1.0) (2018-01-21)
 **Merged pull requests:**
 
