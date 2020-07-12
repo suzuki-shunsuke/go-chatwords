@@ -17,7 +17,7 @@ import (
 //   args, txt := Split("echo 'hello world'", -1)
 //   // ["echo"], " 'hello world'"
 //   args, txt = Split("echo 'hello world'", 1)
-func Split(text string, limit int) ([]string, string) {
+func Split(text string, limit int) ([]string, string) { //nolint:funlen,gocognit
 	args := []string{}
 	var squoted, dquoted, escaped, spaced, ended bool
 	var preChar, word string
