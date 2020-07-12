@@ -1,11 +1,10 @@
 # go-chatwords
 
-[![Build Status](https://travis-ci.org/suzuki-shunsuke/go-chatwords.svg?branch=master)](https://travis-ci.org/suzuki-shunsuke/go-chatwords)
+[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/suzuki-shunsuke/go-chatwords)
+[![Build Status](https://github.com/suzuki-shunsuke/go-chatwords/workflows/CI/badge.svg)](https://github.com/suzuki-shunsuke/go-chatwords/actions)
 [![codecov](https://codecov.io/gh/suzuki-shunsuke/go-chatwords/branch/master/graph/badge.svg)](https://codecov.io/gh/suzuki-shunsuke/go-chatwords)
 [![Go Report Card](https://goreportcard.com/badge/github.com/suzuki-shunsuke/go-chatwords)](https://goreportcard.com/report/github.com/suzuki-shunsuke/go-chatwords)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/suzuki-shunsuke/go-chatwords)
 [![GitHub last commit](https://img.shields.io/github/last-commit/suzuki-shunsuke/go-chatwords.svg)](https://github.com/suzuki-shunsuke/go-chatwords)
-[![GitHub tag](https://img.shields.io/github/tag/suzuki-shunsuke/go-chatwords.svg)](https://github.com/suzuki-shunsuke/go-chatwords/releases)
 [![License](http://img.shields.io/badge/license-mit-blue.svg?style=flat-square)](https://raw.githubusercontent.com/suzuki-shunsuke/go-chatwords/master/LICENSE)
 
 Parse line as chat words.
