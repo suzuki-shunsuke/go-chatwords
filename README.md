@@ -26,7 +26,7 @@ args, text := chatwords.Split("<UXXXXX> echo 'hello world'", -1)
 args, text := chatwords.Split("<UXXXXX> echo 'hello world'", 2)
 ```
 
-[The test code](split_test.go) is also useful to understand this package's behavior.
+[The test code](chatwords/split_test.go) is also useful to understand this package's behavior.
 
 ## Rules to split
 
