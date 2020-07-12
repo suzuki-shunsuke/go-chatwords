@@ -1,6 +1,6 @@
 # go-chatwords
 
-[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/suzuki-shunsuke/go-chatwords)
+[![go.dev](https://img.shields.io/badge/go.dev-pkg-007d9c.svg?style=flat)](https://pkg.go.dev/github.com/suzuki-shunsuke/go-chatwords/chatwords)
 [![Build Status](https://github.com/suzuki-shunsuke/go-chatwords/workflows/CI/badge.svg)](https://github.com/suzuki-shunsuke/go-chatwords/actions)
 [![codecov](https://codecov.io/gh/suzuki-shunsuke/go-chatwords/branch/master/graph/badge.svg)](https://codecov.io/gh/suzuki-shunsuke/go-chatwords)
 [![Go Report Card](https://goreportcard.com/badge/github.com/suzuki-shunsuke/go-chatwords)](https://goreportcard.com/report/github.com/suzuki-shunsuke/go-chatwords)
