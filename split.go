@@ -89,15 +89,11 @@ func Split(text string, limit int) ([]string, string) {
 				switch preChar {
 				case "'":
 					words, txt := Split(fmt.Sprintf("\\'%s'%s", word, text[i:]), limit)
-					for _, w := range words {
-						args = append(args, w)
-					}
+					args = append(args, words...)
 					return args, txt
 				case "\"":
 					words, txt := Split(fmt.Sprintf("\\\"%s\\\"%s", word, text[i:]), limit)
-					for _, w := range words {
-						args = append(args, w)
-					}
+					args = append(args, words...)
 					return args, txt
 				}
 			default:
